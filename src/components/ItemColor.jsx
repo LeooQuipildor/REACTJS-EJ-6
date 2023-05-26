@@ -6,7 +6,7 @@ const ItemColor = ({color, borrarColor}) => {
     return (
         <Col md={6} lg={4} className='mb-5'>
             <h2>Nombre Color</h2>
-            <div className='p-5 mx-5' style={{backgroundColor: `${color}` ,padding: '90px'}}>
+            <div className='p-5 mx-5' style={{backgroundColor: `${color}`}}>
                 {color}
             </div>
             <br />

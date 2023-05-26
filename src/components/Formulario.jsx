@@ -30,7 +30,7 @@ const Formulario = () => {
     <section>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3 d-flex mx-5 row" controlId="color">
-          <div className=' colorCard col-lg-4' style={{backgroundColor: `${color}` ,padding: '90px'}}>
+          <div className=' colorCard col-lg-4' style={{backgroundColor: `${color}`}}>
             <div className='text-center'>
               {color}
             </div>
